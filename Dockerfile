@@ -1,5 +1,5 @@
 
-FROM million12/php-app-ssh:latest
+FROM million12/php-app-ssh:php56
 MAINTAINER Marcin Ryzycki marcin@m12.io
 
 RUN yum -y install zsh
